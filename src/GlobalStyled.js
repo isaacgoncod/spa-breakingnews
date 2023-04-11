@@ -1,3 +1,6 @@
+import { createGlobalStyle } from "styled-components";
+
+export const GlobalStyled = createGlobalStyle`
 @import url("https://fonts.googleapis.com/css2?family=Newsreader:wght@400;700&display=swap");
 
 * {
@@ -14,3 +17,4 @@ body {
   height: 100vh;
   background-color: #f5f5f5;
 }
+`;

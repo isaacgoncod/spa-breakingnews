@@ -11,6 +11,11 @@ export const Nav = styled.nav`
   background-color: #fff;
   z-index: 1;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
 `;
 
 export const ImageLogo = styled.img`
@@ -50,6 +55,9 @@ export const InputSpace = styled.div`
     :focus {
       border: 1px solid #0bade3;
     }
+  }
+  @media (max-width: 800px) {
+    width: 100%;
   }
 `;
 
